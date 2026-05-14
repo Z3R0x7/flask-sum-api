@@ -1,8 +1,4 @@
-"""
-demo.py — runs live demo requests against the running server
-Make sure the server is running first:
-    API_KEY=test123 python3 -m flask --app app.main run --port 8080
-"""
+
 
 import urllib.request
 import urllib.error
