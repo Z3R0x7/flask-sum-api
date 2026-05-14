@@ -63,7 +63,5 @@ def calculate_sum():
     return jsonify({
         "result": total,
         "operations_performed": len(numbers),
-        "message": "Each number was added one at a time, sequentially, no shortcuts. "
-                   "Kind of like how I'd handle every task in this club — methodically. "
-                   "Just saying."
+        "message": "All numbers added sequentially. "
     }), 200
